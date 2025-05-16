@@ -1,0 +1,21 @@
+body {
+      scroll-behavior: smooth;
+    }
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+      transform: scale(1.03);
+      transition: 0.3s;
+    }
+footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
